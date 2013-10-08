@@ -1,0 +1,108 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: #fafafa;
+  color: #F2DC99;
+  background-color: #022840;
+
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  margin: 1em;
+  text-align: center;
+}
+li {
+  margin: 5px;
+}
+
+#container {
+  width: 1000px;
+  margin: auto;
+}
+
+#new-task-field {
+  padding: 10px;
+  border: none;
+  width: 765px;
+  margin: 0 0 0 69px;
+}
+
+.items {
+  padding: 10px;
+  background: white;
+
+}
+.meta-data {
+  color: #aaaaaa;
+  font-size: small;
+  font-style: italic;
+}
+
+#unfinished,
+#finished {
+  margin: 10px 0 10px 0;
+  padding: 10px 40px 10px 10px;
+  background: #9DA67C;
+
+}
+#finished li {
+  list-style-type: none;
+}
+#finished li .items {
+  color: #aaaaaa;
+}
+
+.actions {
+  float: right;
+}
+
+button {
+  margin: 0px;
+  border: none;
+}
+.delete {
+  background: #eecccc;
+}
+.complete {
+  background: #eeeeee;
+}
+#add-item {
+  background: #517360;
+  padding: 10px 20px 10px 20px;
+}
+
+li button{
+  float: right;
+  margin: 1em;
+  margin-right: 0;
+
+}
+li button:hover{
+  color: white;
+}
+ol{
+  width: 850px;
+  margin: 0 auto;
+}
+
+ol li{
+  padding: 1em;
+  padding-bottom: 2em;
+  margin: 1em 0;
+}
+
+ol li:nth-child(odd){
+  background-color: #013440;
+}
+
+ol li:nth-child(even){
+  background-color: #517360;
+}
+
+button{
+  
+  background-color: #F2DC99;
+}
+
